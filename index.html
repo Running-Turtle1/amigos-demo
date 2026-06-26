@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amigos-demo | Cosmos-Transfer2.5 数据增强</title>
+    <meta
+      name="description"
+      content="amigos-demo internship work showcase for Cosmos-Transfer2.5 data augmentation videos."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="页面标题">
+      <a class="brand" href="#top" aria-label="amigos-demo">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span>amigos-demo</span>
+      </a>
+      <nav class="top-nav" aria-label="页面导航">
+        <a href="#videos">Videos</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Internship Work Showcase</p>
+          <h1 id="page-title">Cosmos-Transfer2.5 数据增强</h1>
+          <p class="lede">
+            实习期间，我主要参与了深度估计模型的边缘部署、Isaac Sim 仿真感知全链路搭建，以及 NVIDIA Cosmos 相关能力预研等工作。
+          </p>
+          <p class="lede">
+            本页展示其中一个 Cosmos-Transfer2.5 数据增强样例：通过
+            <a
+              href="https://github.com/nvidia-cosmos/cosmos-transfer2.5"
+              target="_blank"
+              rel="noreferrer"
+              >nvidia cosmos-transfer2.5</a
+            >
+            提升数据的视觉多样性，辅助优化模型训练后的性能表现。
+          </p>
+
+          <a class="primary-link" href="#videos">查看视频</a>
+        </div>
+
+        <section class="feature-player" aria-label="主视频播放器">
+          <div class="player-shell">
+            <video
+              id="main-video"
+              class="main-video"
+              src="assets/videos/demo_4_wood_episode_004_all_cams_quality_check.mp4"
+              poster="assets/posters/demo_4_wood.jpg"
+              controls
+              muted
+              loop
+              playsinline
+              autoplay
+              preload="metadata"
+            ></video>
+          </div>
+          <div class="player-meta">
+            <div>
+              <p class="kicker">Augmented Video</p>
+              <h2>Wood material variant</h2>
+            </div>
+            <p>demo_4_wood_episode_004 · 5.4s · all cameras</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="video-section" id="videos" aria-labelledby="videos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Local MP4 Videos</p>
+          <h2 id="videos-title">视频展示</h2>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-panel">
+            <video
+              src="assets/videos/episode_000_all_cams_quality_check.mp4"
+              poster="assets/posters/episode_000.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div class="video-info">
+              <div>
+                <p class="kicker">Original Video</p>
+                <h3>Episode 000</h3>
+              </div>
+              <span>4.3s</span>
+            </div>
+          </article>
+
+          <article class="video-panel">
+            <video
+              src="assets/videos/episode_001_all_cams_quality_check.mp4"
+              poster="assets/posters/episode_001.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div class="video-info">
+              <div>
+                <p class="kicker">Original Video</p>
+                <h3>Episode 001</h3>
+              </div>
+              <span>9.1s</span>
+            </div>
+          </article>
+
+          <article class="video-panel is-featured">
+            <video
+              src="assets/videos/demo_4_wood_episode_004_all_cams_quality_check.mp4"
+              poster="assets/posters/demo_4_wood.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div class="video-info">
+              <div>
+                <p class="kicker">Augmented Video</p>
+                <h3>Wood Variant</h3>
+              </div>
+              <span>5.4s</span>
+            </div>
+          </article>
+
+          <article class="video-panel is-featured">
+            <video
+              src="assets/videos/demo_6_gold_episode_006_all_cams_quality_check.mp4"
+              poster="assets/posters/demo_6_gold.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div class="video-info">
+              <div>
+                <p class="kicker">Augmented Video</p>
+                <h3>Gold Variant</h3>
+              </div>
+              <span>6.1s</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>本页面展示内容仅用于个人作品展示，所呈现工作不涉及涉密信息或受限内部资料。</p>
+    </footer>
+  </body>
+</html>
