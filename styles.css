@@ -67,15 +67,13 @@ a {
   font-weight: 760;
 }
 
-.brand-mark {
-  display: grid;
-  width: 32px;
-  height: 32px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--surface-strong);
-  color: #ffffff;
-  font-weight: 800;
+.brand-logo {
+  display: block;
+  width: 92px;
+  height: 38px;
+  border-radius: 7px;
+  background: #000000;
+  object-fit: cover;
 }
 
 .top-nav {
